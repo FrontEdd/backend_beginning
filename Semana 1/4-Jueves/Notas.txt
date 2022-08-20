@@ -1,0 +1,28 @@
+MODULOS
+https://pypi.org/ => Find, install and publish Python packages
+
+Crear el entorno virtual para proyectos de Python
+->Instalacion independiente de Python para cada proyecto (para que c/proyecto tenga sus 
+propios modulos o dependencias)
+
+comando 'pip' -> Manejo de modulos
+_> pip list | Nos arroja un listado de dependencias en nuestro ordenador o entorno
+
+______
+_> python -m venv nombre_entorno | Creamos un entorno 'venv' el cual llamamos bajo el nombre_entorno
+(normalmente o es comun llamarlo tambien 'venv')
+
+proyecto nuevo / entorno nuevo / activacion nueva
+
+______
+_> source venv/Scripts/activate | Para activar nuestro entorno virtual
+_> (venv)
+..
+_> deactivate | Para desactivar el entorno virtual
+
+_> pip install nombre_modulo | Instalar modulos para el proyecto dentro del entorno
+
+______
+_> pip freeze > requirements.txt | Almacenar todas las dependencias instaladas
+
+
